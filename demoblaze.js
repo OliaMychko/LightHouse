@@ -132,7 +132,7 @@ async function captureReport() {
 
 
 	//================================REPORTING================================
-	const reportPath = __dirname + '/user-flow.report.html';
+	const reportPath = __dirname + '/report.html';
 	//const reportPathJson = __dirname + '/user-flow.report.json';
 
 	const report = flow.generateReport();
